@@ -26,6 +26,5 @@
 |Ordering Results|`Client.order(:orders_count, created_at: :desc)`|||
 ||`Client.order("orders_count ASC, created_at DESC")`|||
 |Chaining ORDER BY|`Client.order("orders_count ASC").order("created_at DESC")`|`SELECT * FROM clients ORDER BY orders_count ASC, created_at DESC`||
-![image](https://user-images.githubusercontent.com/102683222/231505271-23a63529-d126-4b4a-ac14-38f4d8c9480f.png)
 
 
